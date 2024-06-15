@@ -39,7 +39,9 @@ System.out.println(mayor);
     int valor = primo.primo(num_primo);
 
 }
-else if (opcion == 2) {}
+else if (opcion == 2) {
+
+}
 else {System.out.println("Ingrese una opción válida");}
         }
     }
