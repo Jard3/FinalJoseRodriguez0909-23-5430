@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -40,7 +41,14 @@ System.out.println(mayor);
 
 }
 else if (opcion == 2) {
-
+    int i=0;
+    while (i <= 5) {
+        System.out.println("Ingrese el nombre");
+        String nombre = Scanner.next();
+        System.out.println("Ingrese la calificación");
+        int calificacion = Scanner.nextInt();
+        Estudiante lista = new Estudiante(nombre, calificacion);
+    }
 }
 else {System.out.println("Ingrese una opción válida");}
         }

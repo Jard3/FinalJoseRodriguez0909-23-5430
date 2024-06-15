@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class Estudiante {
@@ -28,6 +29,9 @@ java.util.Scanner
     }
     public void setCalificacion(){
         System.out.println("La calificacion del estudiante es: "+calificacion);}
+    public void listaEstudiante(){
+        List Estudiantes;
+    }
     public Estudiante (String nombre, int calificacion){
         this.nombre = nombre;
         this.calificacion = calificacion;
